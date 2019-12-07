@@ -34,7 +34,7 @@ When('User enters {string} and {string}',async(string,string2)=>{
     await calc.firstTextBox.sendKeys(string);
     await calc.secondTextBox.sendKeys(string2);
     await calc.go.click();
-    await console.log("B's edit");
+    await console.log("B's edit2");
     
 });
 
