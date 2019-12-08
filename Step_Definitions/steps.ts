@@ -34,8 +34,12 @@ When('User enters {string} and {string}',async(string,string2)=>{
     await calc.firstTextBox.sendKeys(string);
     await calc.secondTextBox.sendKeys(string2);
     await calc.go.click();
-    await console.log("B's master");
+<<<<<<< HEAD
+    
     await console.log("A's master");
+=======
+    
+>>>>>>> master
     
 });
 
