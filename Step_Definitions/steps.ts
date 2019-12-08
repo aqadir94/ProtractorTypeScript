@@ -36,6 +36,7 @@ When('User enters {string} and {string}',async(string,string2)=>{
     await calc.go.click();
     await console.log("B's edit2");
     await console.log("branch develop");
+    await console.log("branch develop user 2");
     
 });
 
