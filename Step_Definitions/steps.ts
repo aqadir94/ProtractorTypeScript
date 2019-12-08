@@ -35,6 +35,7 @@ When('User enters {string} and {string}',async(string,string2)=>{
     await calc.secondTextBox.sendKeys(string2);
     await calc.go.click();
     await console.log("B's master");
+    await console.log("A's master");
     
 });
 
